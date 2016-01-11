@@ -14,11 +14,11 @@ $silentArgs = '/S' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any 
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 # variables
-$url = "https://download.jetbrains.com/python/pycharm-community-5.0.2.exe"
+$url = "https://download.jetbrains.com/python/pycharm-community-5.0.3.exe"
 $chocTempDir = Join-Path $env:TEMP "pycharm-community"
 $tempDir = Join-Path $chocTempDir "pycharm-communityInstall"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
-$file = Join-Path $tempDir "pycharm-community-5.0.2.exe"
+$file = Join-Path $tempDir "pycharm-community-5.0.3.exe"
 
 # download the package
 Write-Host "Downloading $url to $file"
