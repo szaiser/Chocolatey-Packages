@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PyCharm-community</id>
-    <version>5.0.3</version>
+    <version>2016.3.3</version>
     <title>PyCharm (Install)</title>
     <authors>Jetbrains</authors>
     <owners>BigSkylie</owners>
@@ -12,6 +12,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Open source edition of the intelligent Python IDE with unique code assistance and analysis, for productive Python development on all levels.</description>
     <summary>PyCharm</summary>
+    <dependencies>
+      <dependency id='jdk' />
+    </dependencies>
     <releaseNotes />
     <copyright />
     <tags>PyCharm jetbrains python IDE</tags>
