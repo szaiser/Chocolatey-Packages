@@ -1,10 +1,10 @@
 ﻿$packageArgs = @{
   packageName   = 'PyCharm-community'
   fileType      = 'EXE'
-  url           = "https://download.jetbrains.com/python/pycharm-community-2017.2.3.exe"
+  url           = "https://download.jetbrains.com/python/pycharm-community-2017.2.4.exe"
   silentArgs    = '/S'
   validExitCodes= @(0)
-  checksum      = '0c05e26dd89bc45e4270ca22174e41148d23249d7fec770e0e3054b0cad60b67' 
+  checksum      = 'd3312df221bf88420981f3405d85e23622807d487367f76e1b1e893e95837c70'
   checksumType  = 'sha256'
 }
 
