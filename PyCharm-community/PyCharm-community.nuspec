@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PyCharm-community</id>
-    <version>2017.2.4</version>
+    <version>2017.3</version>
     <title>PyCharm (Install)</title>
     <authors>Jetbrains</authors>
     <owners>BigSkylie</owners>
@@ -14,7 +14,7 @@
     <description>Open source edition of the intelligent Python IDE with unique code assistance and analysis, for productive Python development on all levels.</description>
     <summary>PyCharm</summary>
 	    <dependencies>
-      <dependency id='jdk8' />
+      <dependency id='jre8' />
     </dependencies>
     <releaseNotes />
     <copyright />
