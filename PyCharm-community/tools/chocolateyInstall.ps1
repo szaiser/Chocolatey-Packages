@@ -4,7 +4,7 @@
   url           = "https://download.jetbrains.com/python/pycharm-community-$env:ChocolateyPackageVersion.exe"
   silentArgs    = '/S'
   validExitCodes= @(0)
-  checksum      = 'd3312df221bf88420981f3405d85e23622807d487367f76e1b1e893e95837c70'
+  checksum      = 'cf3eb25ccd4fc25b2f91dd7bdd031d5d195e98c2735898ea608f01baa0bc9b5d'
   checksumType  = 'sha256'
 }
 
